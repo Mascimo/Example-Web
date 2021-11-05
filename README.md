@@ -1,5 +1,5 @@
 # Example Web
-[![NPM](https://img.shields.io/npm/l/react)](https://colocar o link aki) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Mascimo/Example-Web/blob/main/LICENSE) 
 
 # Sobre o projeto
 
@@ -10,7 +10,7 @@ Example Web é uma aplicação front end web e mobile construída durante o 1ª 
 A aplicação consiste em uma página empresarial, onde são mostrados de forma agradável é clara, seus produtos e serviços. Além de disponibilizar varias opções de localização é contato interativo.
 
 ## Layout mobile
-![Mobile 1](link) ![Mobile 2](link)
+![Mobile 1](https://github.com/Mascimo/Example-Web/blob/main/assents/imgmobile01.png) ![Mobile 2](https://github.com/Mascimo/Example-Web/blob/main/assents/imgmobile02.png)
 
 ## Layout web
 ![Web 1](link)
