@@ -11,9 +11,9 @@ A aplicação consiste em uma página empresarial, onde são mostrados de forma 
 
 ## Layout mobile
 
-<img alt="Readme" src="./assents/mobile01.gif" width="400"></img>
+<img alt="Readme" src="./assents/mobile01.gif" width="350"></img>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img alt="Readme" src="./assents/imgmobile02.png" width="400"></img>
+<img alt="Readme" src="./assents/imgmobile02.png" width="350"></img>
 
 
 ## Layout web
