@@ -3,7 +3,6 @@
 
 # Sobre o projeto
 
-<!-- link do projeto  -->
 
 Example Web é uma aplicação front end web e mobile construída durante o 1ª modulo do curso **Desenvolvimento Web**.
 
