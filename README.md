@@ -31,7 +31,6 @@ A aplicação consiste em uma página empresarial, onde são mostrados de forma 
 # Como executar o projeto
 
 ## Front end
-Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
