@@ -1,0 +1,1151 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+}
+
+#menuContact{
+    width: 100%;
+    height: 50px;
+    background-color:#0d1149;
+    color: white;
+    display: block;
+    display: inline-block;
+}
+
+#socialNetwork{
+    display: inline-block;
+    margin-left: 35vw;
+}
+
+.social{
+    margin-left: 5px;
+}
+
+.menuContactStyle{
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.menuSpace{
+    margin-left: 15vw;
+}
+
+#menu{
+    position: sticky;
+    top: -1px;
+    z-index: 900;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+#logo{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#menu01{
+    margin-left: 10vw;
+}
+
+
+#menu05{
+    padding-top: 50px;
+    height: 51px;
+    width: 170px;
+    background-color: #008fd0;
+    color: white;
+    text-align: center;
+}
+
+.class_menu{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #A6A6A6;
+    margin-left: 20px;
+    transform: translateY(-14px);
+}
+
+#menu_mobile{
+    margin-left: 55vw;
+}
+
+#menuLine{
+    background-color: white;
+    position: sticky;
+    top: 99px;
+    z-index: 900;    
+}
+
+#divi{
+    width: 100%;
+    height: 6px;
+    background-color:#008fd0;;
+}
+
+#menuVariable{
+    display: inline-block;
+}
+
+
+
+
+/* Menu Right  */
+
+.off{
+    display: none;
+}
+
+.on{
+    background-color: #191919;
+    width: 230px;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    right: 0px;
+    color: #A6A6A6;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+#exitMenuRight{
+    font-size: 40px;
+    float: right;
+    display: block;
+}
+
+#exitMenuRight:hover{
+    cursor: pointer;
+}
+.textDecoration{
+    text-decoration: none;
+    color: #A6A6A6;
+}
+
+.textDecoration:hover{
+    color: white;
+}
+
+#textMenuRight01{
+    margin-top: 50px;
+}
+
+#textMenuRight05{
+    color: white;
+    background-color: #008fd0; ;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#textMenuRight05:hover{
+    background-color: #1a538499;; ;
+}
+
+.textMenuRight{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+/* papel de parede 01  */
+
+#backgroud01{
+    width: auto;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-image: url(./imagens/bg01.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#backgroud02{
+    width: 100%;
+    height: 10vw;
+    position: absolute;
+    bottom: 0px;
+    background-repeat: no-repeat;
+    background-image: url(./imagens/home_internet_slider_slide1_overlay.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img01{
+    width: 1500px;
+    z-index: 10;
+    position: absolute;
+    bottom: -30px;
+    right: 30vw;
+}
+
+#textBackgroud{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    right: max(20px, 5vw);
+    z-index: 500;
+}
+
+#textBackgroud02{
+    font-size: 0.5em;
+    margin-top: 10px;
+}
+
+.textDecoration02{
+    text-decoration: none;
+}
+
+#textBackgroud03{
+    color: white;
+    font-size: 0.4em;
+    background-color: #008fd0;
+    width: min(25vw, 250px);
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Serviços  */
+
+#div_logo01{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#logo01{
+    width: 110px;
+}
+
+#textServices{
+    color: #0d1149;
+    text-align: center;
+    font-size: 50px;
+}
+
+#textServices02{
+    text-align: center;
+    color: #9198a1;
+    font-size: 25px;
+}
+
+#conteiner{
+    text-align: center;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#conteiner02{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.frame{
+    background-color:#1a538499 ;
+    width: 100%;
+    height: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.titleServices{
+    font-size: 25px;
+    color:#0d1149;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contentServices{
+    color: #9198a1;
+    font-size: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.classServices{
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 600px;
+}
+
+#Services01{
+    margin-right: 30px;
+}
+
+#Services03{
+    margin-right: 30px;
+}
+
+
+
+
+/* Problemas  */
+
+#problems{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#problemsText{
+    width: 400px;
+}
+
+#titleProblems{
+    font-size: 50px;
+    color: #0d1149;
+}
+
+#ContentProblems{
+    font-size: 25px;
+    margin-top: 50px;
+    color: #9198a1;
+}
+
+.class_list{
+    margin-top: 30px;
+    font-size: 28px;
+    color: #9198a1;
+    list-style-image: url('./imagens/icone04.png');
+}
+
+.item_list{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#divImgProblems{
+    margin-left: 30px;
+}
+
+#imgProblems{
+    width: 700px;
+}
+
+
+
+
+/* BACKGRAUD03  */
+
+#backgraud03{
+    width: auto;
+    height: 275px;
+    background-repeat: no-repeat;
+    background-image: url(./imagens/background03.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+#conteiner_backgraud03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+#text_backgraud03{
+    width: 750px;
+    font-size: 35px;
+    color: #fff;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#button_backgraud03{
+    color: #fff;
+    font-size: 15px;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    background-color: #008fd0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+
+/* Quem somos  */
+
+#who{
+    margin-top: 80px;
+}
+
+#imgWho{
+    text-align: center;
+}
+
+#conteinerWho{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titleWho{
+    font-size: 40px;
+    color: #0d1149;
+    width: 400px;
+}
+
+#textWho{
+    font-size: 25px;
+    color: #9198a1;
+    margin-top: 40px;
+    width: 1050px;
+}
+
+
+
+
+/* Quem somos parte de baixo */
+
+#conteinerWho02{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#spacing{
+    margin-right: 60px;
+}
+
+.conteinerWho02Content{
+    display: flex; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.titleConteinerWho02{
+    font-size: 29px;
+    margin-bottom: 20px; 
+    color: #0d1149;
+    text-align: center;
+}
+
+.textConteinerWho02{
+    text-align: justify;
+    font-size: 24px;
+    width: 500px;
+    color: #9198a1;
+}
+
+
+
+
+/* Localização */
+
+#divLocation{
+    margin-top: 150px;
+    position: relative;
+    padding-bottom: 200px;
+    background-color: #F5F6FA;
+}
+
+#location{
+    width: 100%;
+    height: 500px;
+}
+
+#contentLocation{
+    background-color: white;
+    background-image: url(./imagens/icone07.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute; 
+    left: 12vw;
+    top: 100px;
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    box-shadow: 6px 6px 15px #888;
+}
+
+#titleLocation{
+    font-size: 28px;
+    color: #0d1149;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.fontLocation{
+    font-size: 18px;
+    color: #9198a1;
+}
+
+.spacingFontLocation{
+    margin-bottom: 20px;
+}
+
+.spacingImgLocation{
+    margin-right: 20px;
+}
+
+#textLocation{
+    margin-bottom: 40px;
+}
+
+
+
+
+/* Fale Conosco  */
+
+#Talk{
+    background-image: url(./imagens/bg10.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    width: 100%;
+    height: 600px;
+}
+
+#contentTalk{
+    font-size: 20px;
+    text-align: center;
+    color: #9198a1;
+    width: 300px; 
+}
+
+#textTalk{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#contentTalk02{
+    margin-left: 60px;
+    width: 814px;
+}
+
+#titleTalk{
+    font-size: 50px;
+    color: #0d1149;
+}
+
+.formulario{
+    border: none;  
+    padding: 15px; 
+    padding-left: 20px; 
+    font-size: 20px;
+    width: 350px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#motive{
+    width: 795px;
+    margin-right: 0px;
+}
+
+#enviar{
+    border: none;
+    font-size: 17px;
+    margin-top: 20px;
+    background-color: #008fd0;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#enviar:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* INFORMAÇOES ADICIONAIS */
+
+#information{
+    display: flex;
+    justify-content: center;
+}
+
+.titleInformation{
+  font-size: 25px;
+  color: #0d1149;
+}
+
+.textInformation{
+    font-size: 20px;
+    color: #9198a1;
+    margin-top: 20px;
+}
+
+#information01{
+    width: 250px;
+    margin-right: 50px;
+}
+
+#information02{
+    width: 250px;
+    margin-right: 50px;
+}
+
+#information03{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#information04{
+    width: 330px;
+}
+
+#textInformation04{
+    display: flex;
+}
+
+#whatsInformation{
+    margin-right: 20px;
+}
+
+.linkInformation{
+    text-decoration: none;
+    color: rgb(114, 114, 241);
+}
+
+.spacingLinkInformation{
+    margin-top: 10px;
+}
+
+
+
+
+/* INTERAÇÕES_FIXAS */
+
+#whats{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+#whatsImg{
+    border-radius: 50%;
+    width: 55px;
+}
+
+#acessibilidade{
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    z-index: 900;
+}
+
+#acessibilidade_img{
+    border-radius: 50%;
+    width: 40px;
+
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: center; 
+    background-color:#31A4D8;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.link_footer{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #091A50;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #31A4D8;
+    height: 90px;
+    border-radius: 15px;
+}
+
+
+
+
+/* Redmencionamento  */
+
+@media screen and (max-width: 1750px) {
+    
+    #img01{
+        left: -200px;
+    }
+}
+
+@media screen and (max-width: 1235px){
+    
+    .imgServices{
+        width: 450px;
+    }
+
+    .classServices{
+        width: 450px;
+    }
+
+    #problemsText{
+        width: 300px;
+    }
+
+    #imgProblems{
+        width: 550px;
+    }
+
+    #text_backgraud03{
+        width: 600px;
+        margin-right: 20px;
+    }
+
+    #textWho{
+        width: 830px;
+    }
+
+    .titleConteinerWho02{
+        width: 400px;
+    }
+        
+    .textConteinerWho02{
+        width: 400px;
+    }  
+
+    #contentTalk{
+        width: 250px; 
+    }
+    
+    #imgTalk{
+        width: 230px;
+    }
+    
+    #contentTalk02{
+        margin-left: 40px; 
+        width: 654px;
+    }
+
+    .formulario{
+        width: 280px; 
+        margin-right: 10px;
+    }
+
+    #motive{
+        width: 645px;
+    }
+
+   #information01{
+        width: 200px;
+        margin-right: 20px;
+    }
+
+   #information02{
+        width: 200px;
+        margin-right: 20px;
+   }
+
+   #information03{
+        width: 140px;
+        margin-right: 20px;
+   }
+
+   #information04{
+        width: 330px;
+   }
+
+}
+
+@media screen and (max-width: 1039px){
+    
+    .menuSpace{
+        margin-left: 5vw;
+    }
+    
+    #textBackgroud{
+        font-size: max(18px, 5vw);
+    }
+
+}
+
+@media screen and (max-width: 950px){
+
+    .imgServices{
+        width: 350px;
+    }
+
+    .classServices{
+        width: 350px;
+    }
+
+    #Services01{
+        margin-right: 20px;
+    }
+
+    #Services03{
+        margin-right: 20px;
+    }
+
+    #problemsText{
+        width: 250px;
+    }
+
+    #titleProblems{
+        font-size: 40px;
+    }
+
+    #imgProblems{
+        width: 400px;
+    }
+
+    #text_backgraud03{
+        width: 500px;
+        margin-right: 10px;
+    }
+
+    #textWho{
+        width: 600px;
+    }
+
+    .item_list{
+        width: 600px;
+    }
+
+    .titleConteinerWho02{
+        width: 300px;
+    }
+        
+    .textConteinerWho02{
+        width: 300px;
+        text-align: left;
+    }
+
+    #contentTalk{
+        font-size: 18px;
+        width: 180px; 
+    }
+
+    #imgTalk{
+        width: 170px;
+    }
+
+    #contentTalk02{
+        width: 474px;
+     }
+
+    .formulario{
+        width: 190px; 
+    }
+
+    #motive{
+        width: 465px;
+    }
+
+    .titleInformation{
+        font-size: 21px;
+    }
+  
+    .textInformation{
+        font-size: 18px; 
+    }
+
+    #information01{
+        width: 150px;
+    }
+
+    #information02{
+        width: 150px;
+    }
+
+    #information03{
+        width: 115px;
+        margin-right: 20px;
+    }
+
+    #information04{
+        width: 200px;
+    }
+
+    #whatsInformation{
+        margin-right: 5px;
+    }
+
+}
+
+@media screen and (max-width: 866px){
+
+    #socialNetwork{
+        margin-left: 20vw;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    #menuContact{
+        display: none;
+    }
+
+    #menu_mobile{
+        margin-left: 35vw;
+    }
+
+    #img01{
+        width: 450px;
+        bottom: -20px;
+        left: -50px;
+    }
+
+    #Services01{
+        margin-right: 0px;
+    }
+
+    #Services03{
+        margin-right: 0px;
+    }
+
+    #conteiner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #conteiner02{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .imgServices{
+        width: max(80vw, 350px);
+    }
+
+    .classServices{
+        width: max(80vw, 350px);
+    }
+
+    #problems{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #divImgProblems{
+        margin-left: 0px;
+    }
+
+    #problemsText{
+        width: min(400px, 90vw);
+    }
+
+    #titleProblems{
+        font-size: 30px;
+    }
+
+    #imgProblems{
+        width: min(500px, 90vw);
+    }
+
+    #backgraud03{
+        height: 500px;
+    }
+
+    #conteiner_backgraud03{
+        flex-direction: column;
+    }
+
+    #text_backgraud03{
+        width: min(500px, 80vw);
+        margin-right: 0px;
+    }
+
+    #button_backgraud03{
+        margin-top: 50px;
+    }
+
+    #titleWho{
+        width: min(400px, 70vw);
+        font-size: min(40px, 10vw);
+    }
+
+    #textWho{
+        width: min(400px, 70vw);
+    }
+
+    .item_list{
+        font-size: 20px;
+        width: min(400px, 70vw);
+    }
+
+    #conteinerWho02{
+        flex-direction: column;
+    }
+
+    #spacing{
+        margin-right: 0px;
+    }
+
+    .titleConteinerWho02{
+        width: min(400px, 60vw);
+    }
+        
+    .textConteinerWho02{
+        width: min(400px, 60vw);
+        margin-bottom: 80px;
+    }
+
+    #contentLocation{
+        top: 280px;
+        width: min(300px, 55vw );
+    }
+
+    #Talk{
+        flex-direction: column;
+        align-items: center;
+        background-repeat: repeat;  
+        padding-top: 250px;
+        padding-bottom: 120px;
+    }
+
+    #contentTalk{
+        width: min(500px, 80vw);  
+    } 
+
+    #imgTalk{
+        width: min(500px, 80vw);
+    } 
+
+    #contentTalk02{
+        margin-left: 0px; 
+        width: 75%;
+        margin-top: 40px;
+    }
+
+    #titleTalk{
+        font-size: 30px;  
+    } 
+
+    .formulario{
+        margin-right: 0px;     
+        width: 92%;
+    }
+
+    #motive{
+        width: 100%;
+    }
+
+    #information{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titleInformation{
+        font-size: 25px;
+        margin-top: 60px;
+    }
+  
+    .textInformation{
+        font-size: 20px;
+    }
+  
+    #information01{
+        width: 70vw;
+        margin-right: 0px;
+    }
+  
+    #information02{
+        width: 70vw;
+        margin-right: 0px;
+    }
+  
+    #information03{
+        width: 70vw;
+        margin-right: 0px;
+    }
+  
+    #information04{
+        width: 70vw;
+    }
+
+    #textInformation04{
+        flex-direction: column;
+    }
+
+    footer{        
+        font-size: 15px;
+    }
+
+    .link_footer{ 
+        font-size: 15px;   
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+    #menu_mobile{
+        margin-left: 20vw;
+    }
+
+    .classServices{  
+        width: 100%;
+    }
+   
+    .imgServices{
+        width: max(310px, 100vw);
+    }
+
+    #textServices{
+        font-size: 40px;
+    }
+
+    #textServices02{
+        font-size: 20px;
+    }
+
+    #backgraud03{
+        height: 550px;
+    }
+
+    .formulario{   
+        width: 86%;
+    }
+    
+}
