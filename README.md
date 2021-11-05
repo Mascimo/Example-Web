@@ -10,14 +10,14 @@ Example Web é uma aplicação front end web e mobile construída durante o 1ª 
 A aplicação consiste em uma página empresarial, onde são mostrados de forma agradável é clara, seus produtos e serviços. Além de disponibilizar varias opções de localização é contato interativo.
 
 ## Layout mobile
-<img alt="Readme" src="./assents/imgmobile01.png" width="40"></img>
 
-![Mobile 1](https://github.com/Mascimo/Example-Web/blob/main/assents/imgmobile01.png) ![Mobile 2](https://github.com/Mascimo/Example-Web/blob/main/assents/imgmobile02.png)
+<img alt="Readme" src="./assents/mobile01.gif" width="400"></img>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img alt="Readme" src="./assents/imgmobile02.png" width="400"></img>
+
 
 ## Layout web
-![Web 1](link)
-
-![Web 2](link)
+<img alt="Readme" src="./assents/gifWeb01.gif"></img>
 
 
 # Tecnologias utilizadas
@@ -35,13 +35,13 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone link
+git clone https://github.com/Mascimo/Example-Web
 
 # entrar na pasta do projeto front end web
 cd Example Web
 
 # executar o projeto
-index
+index.html
 ```
 
 # Autor
